@@ -77,3 +77,26 @@ header{
     justify-content: space-evenly;
    
 }
+
+/*-------------------------------
+-----------All Product-----------
+---------------------------------*/
+
+h2{
+    text-align: center;
+}
+.all-product{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
