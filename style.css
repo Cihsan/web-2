@@ -36,3 +36,27 @@ body{
     text-decoration: none;
     padding: 20px 10px;
 }
+
+/*-------------------------------
+--------Header Start-------------
+---------------------------------*/
+
+.full-header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.header-info h1{
+    font-size: 3em;
+}
+
+.header-info p{
+    font-size: 1.3em;
+    line-height: 1.8;
+}
+.button{
+    padding: 16px 32px;
+    font-weight: 700;
+}
