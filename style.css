@@ -82,7 +82,7 @@ header{
 -----------All Product-----------
 ---------------------------------*/
 
-h2{
+.product-title h2{
     text-align: center;
 }
 .all-product{
@@ -92,7 +92,13 @@ h2{
     align-items: center;
 }
 
-
+.bottom-text{
+    color: cornsilk;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(1, 1, 32);
+}
 
 
 
