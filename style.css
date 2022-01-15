@@ -302,34 +302,17 @@ input[type="text"], [type="email"]{
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
+    justify-items: center;
+    
+}
+.bottom-text{
+    width: 100%;
+}
+.contact-image img{
+    justify-content: center;
 }
 .bottom-text{
     width: 100%;
 }
 
 }
-
-/* @media only screen and (min-width: 300px) {
-
-    .full-header{
-        grid-template-columns: 1fr;
-    }
-  
-    .all-product{grid-template-columns: 1fr;}
-
-    .contact{grid-template-columns: 1fr;
-    align-items: center;
-    justify-content: center;
-
-    }
-    .bottom-text{width: 100%;}
-}
-
-@media only screen and (max-width:700px)  {
-    .full-header {grid-template-columns: 1fr;}
-
-    .all-product{grid-template-columns: repeat(2,1fr);}
-
-    .contact{grid-template-columns: repeat(2,1fr);}
-    .bottom-text{width: 100%;}
-} */
