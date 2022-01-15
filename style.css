@@ -58,10 +58,12 @@ header{
 ---------------------------------*/
 
 .full-header{
+    margin: 30px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
     align-items: center;
+    justify-items: center
 }
 
 .header-info h1{
@@ -239,9 +241,30 @@ input[type="text"], [type="email"]{
 
 
 
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .full-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+.various-company-logo{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
+.all-product{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    /* width: 200px; */
+}
+}
 
-@media only screen and (min-width: 300px) {
+/* @media only screen and (min-width: 300px) {
 
     .full-header{
         grid-template-columns: 1fr;
@@ -264,4 +287,4 @@ input[type="text"], [type="email"]{
 
     .contact{grid-template-columns: repeat(2,1fr);}
     .bottom-text{width: 100%;}
-}
+} */
