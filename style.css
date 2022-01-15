@@ -241,13 +241,21 @@ input[type="text"], [type="email"]{
 
 
 
-@media only screen and (min-width:300px) and (max-width:600px) {
+@media only screen and (min-width:250px) and (max-width:600px) {
     .full-header{
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+}
+    .header-info h1,p{
+        text-align: center;
+
+}
+.header-image img{
+    justify-content: center;
+}
 .various-company-logo{
+    margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
@@ -260,8 +268,45 @@ input[type="text"], [type="email"]{
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    /* width: 200px; */
+    align-items: center;
 }
+.bottom-text{
+    width: 100%;
+}
+
+}
+
+
+@media only screen and (min-width:600px) and (max-width:900px) {
+    .full-header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header-info h1,p{
+        text-align: center;
+
+    }
+.various-company-logo{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.all-product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-text{
+    width: 100%;
+}
+
 }
 
 /* @media only screen and (min-width: 300px) {
