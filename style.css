@@ -59,11 +59,14 @@ header{
 .header-info p{
     font-size: 1.3em;
     line-height: 1.8;
+    margin: 20px 0;
 }
 .button{
     padding: 16px 32px;
     font-weight: 700;
 }
+
+
 .header-image{
     background-image: url(./images/Circle\ design.svg);
     background-repeat: no-repeat;
@@ -88,9 +91,16 @@ header{
 .all-product{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: center;
+    grid-row-gap: 50px;
+    justify-items: center;
     align-items: center;
 }
+
+
+
+/*-------------------------------
+-----------Footer-----------
+---------------------------------*/
 
 .bottom-text{
     color: cornsilk;
